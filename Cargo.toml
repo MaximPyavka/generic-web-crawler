@@ -1,0 +1,30 @@
+[package]
+name = "generic-web-crawler"
+version = "0.1.0"
+authors = ["maxpyavka@gmail.com"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+reqwest = { version = "0.11", features = ["json", "cookies"] }
+tokio = { version = "1", features = ["full", "fs"] }
+tokio-stream = "0.1.8"
+dotenv = "0.15"
+bytes = "1"
+log4rs= "1.0"
+log = "0.4"
+scraper="0.12"
+regex="1.5"
+futures="0.3.16"
+url = { version = "2.0", features = ["serde"] }
+serde = { version = "1.0", features = ["derive"]}
+serde_json = "1.0"
+encoding_rs = "0.8"
+nanoid = "0.4.0"
+google-drive3 = "*"
+hyper = "*"
+hyper-rustls = "*"
+yup-oauth2 = "*"
+mime = "0.3.16"
+async-recursion = "1.0.0"
