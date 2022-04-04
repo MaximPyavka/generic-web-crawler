@@ -1,4 +1,4 @@
-# generic-web-sraper
+# generic-web-crawler
 Recursive and target agnostic web scraper with declarative configuration. The user should specify JSON configuration which describes desired workflow specification.
 The most of the configuration file consists of a tree-like structure, where each node can represent the following: 
 - Scraping target configuration: URLs with possible authentication, query parameters, headers, etc.
